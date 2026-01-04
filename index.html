@@ -6,6 +6,22 @@
     <title>Exploring Git</title>
 </head>
 <body>
-    <h1>My first git</h1>
+    <h1>Exploring Git</h1>
+    <div>
+        <h2>Git Commands Explained</h2>
+        <p><strong>git init:</strong> This command initializes a new Git repository in your current directory. It creates a hidden .git folder that contains all the necessary metadata for version control.</p>
+        <p><strong>git add .:</strong> This command stages all the changes (new files, modified files, deleted files) in the current directory for the next commit. The dot (.) indicates that all changes should be added.</p>
+        <p><strong>git commit -m "enter your meaningful message":</strong> This command saves the staged changes to the repository with a descriptive message. The message should summarize the changes made in that commit.</p>
+        <p><strong>git branch -M main:</strong> This command renames the current branch to "main". The -M flag forces the rename even if the target branch name already exists.</p>
+        <p><strong>git pull:</strong> This command fetches changes from a remote repository and merges them into your current branch. It is used to keep your local repository up-to-date with the remote repository.</p>
+        <p><strong>git push:</strong> This command uploads your local commits to a remote repository. It is used to share your changes with others and update the remote repository with your latest work.</p>
+    </div>
+    <h2>Most Commonly Used Git Commands</h2>
+    <ol>
+        <li>git add . [To stage changes for the next commit]</li>
+        <li>git commit -m "enter your meaningful message" [To save staged changes to the repository]</li>
+        <li>git push [To upload local repository content to a remote repository]</li>
+        <li>git pull [To fetch and integrate changes from a remote repository]</li>
+    </ol>
 </body>
 </html>
